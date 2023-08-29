@@ -1,0 +1,42 @@
+body {
+  min-width: 320px;
+  overflow-x: hidden;
+  
+  font-family: sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+
+  background-color: antiquewhite;
+}
+
+.container {
+  padding: 10% 20%;
+}
+
+h1 {
+  text-align: center;
+}
+
+.timer,
+.buttons {
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 5%;
+
+  background-color: rgb(36, 140, 177);
+}
+
+.timer {
+  margin-bottom: 5%;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  min-width: 20%;
+  padding: 2%;
+  border-radius: 10px;
+}
