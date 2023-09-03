@@ -9,16 +9,20 @@
 </head>
 <body>
     <div class="container">
-        <h1>Таймер</h1>
-        <div class="timer">
+        <h1>Timer</h1>
+        <div class="timer-container">
+            <form name="timerForm">
+                <input type="text" name="minutes" placeholder="Enter minutes">
+            </form>
             <timer-view></timer-view>
         </div>
         <div class="buttons">
-            <button type="button" is="start-btn" class="start">Старт</button>
-            <button type="button" is="pause-btn" class="pause">Пауза</button>
-            <button type="button" is="reset-btn" class="reset">Сброс</button>
+            <button type="button" class="start">Start</button>
+            <button type="button" class="pause">Pause</button>
+            <button type="button" class="reset">Reset</button>
         </div>
     </div>
+
     <script src="./index.js"></script>
 </body>
 </html>

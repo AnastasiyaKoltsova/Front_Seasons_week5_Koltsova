@@ -17,7 +17,7 @@ h1 {
   text-align: center;
 }
 
-.timer,
+.timer-container,
 .buttons {
   border: 1px solid black;
   border-radius: 10px;
@@ -26,8 +26,14 @@ h1 {
   background-color: rgb(36, 140, 177);
 }
 
-.timer {
+.timer-container {
   margin-bottom: 5%;
+}
+
+.timer {
+  display: block;
+  margin: 0 auto;
+  font-weight: bold;
 }
 
 .buttons {
